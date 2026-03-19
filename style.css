@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "h1-font";
+    src: url("./fonts/BowlbyOne-Regular.ttf") format("opentype");
+}
+
+body{
+    background-image: url(images/background.png);
+    background-size: contain;
+}
+
+img{
+    height:500px; 
+    width:500px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.text, a{
+    color: white;
+    text-decoration: none;
+}
+
+
+h1{
+    font-weight: bolder;
+    font-family:"h1-font";
+    width: 100%;
+    font-size:36px;
+}
+
+.first-part{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.main-text{
+    margin-top: 25px;
+    color: rgb(209, 206, 206);
+}
+
+.address{
+    margin-top: 20px;
+
+}
